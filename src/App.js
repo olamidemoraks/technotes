@@ -17,6 +17,7 @@ import { ROLES } from "./config/roles";
 import useTitle from "./hooks/useTitle";
 function App() {
   useTitle("Olamide repair");
+
   return (
     <div className="App">
       <Routes>
